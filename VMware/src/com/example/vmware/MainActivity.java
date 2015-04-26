@@ -51,8 +51,8 @@ public class MainActivity extends Activity implements OnClickListener {
 		password=(EditText)findViewById(R.id.password);
 		 Intent i=new Intent(MainActivity.this,VMActivity.class);
 		 i.putExtra("ip", "130.65.132.110");
-		 i.putExtra("userName", "administrator");
-		 i.putExtra("password", "12!@qwQW");
+		 i.putExtra("userName", userName);
+		 i.putExtra("password", password);
 		 startActivity(i);
 		
 	}
